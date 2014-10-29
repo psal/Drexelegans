@@ -1,0 +1,573 @@
+
+ID	Entity	Description	Function
+1	Neuron	An electrically excitable cell that processes and transmits information through electrical and chemical signals.	 
+2	Interneuron	An interneuron (also called relay neuron, association neuron, connector neuron or local circuit neuron) is a neuron that forms a connection between other neurons. Interneurons are neither motor nor sensory.	 
+3	Sensory	Sensory neurons are neurons responsible for converting various external stimuli that come from the environment into corresponding internal stimuli.	 
+4	Motor	In neurology, the term motor neuron (or motoneuron) classically applies to neurons located in the central nervous system (or CNS) that project their axons outside the CNS and directly or indirectly control muscles.	 
+5	Interneuron/Motor	 	 
+6	Pharyngeal interneuron	Interneuron of the pharyngeal nervous system.	 
+7	Sensory/Interneuron/Motor	 	 
+8	Sensory/Interneuron	 	 
+9	Ring Motor	 	 
+10	Ring/Pharynx	 	 
+11	ADAL	Integrative ring interneurons	Unknown. However, topological cluster analyses suggest ADA may be involved in chemosensation (Sohn et al., 2011).
+12	ADAR	Integrative ring interneurons	Unknown. However, topological cluster analyses suggest ADA may be involved in chemosensation (Sohn et al., 2011).
+13	ADEL	Anterior deirids. The sensillar branch from the dorsal process follows a dorsal and frequently posterior trajectory ending laterally within the lateral alae in the anterior third of the body.	- ADEL/R are dopaminergic nose touch mechanoceptors. They modulate locomotion behavior in response to the presence of food by textural mechanosensation, wherein upon encountering a lawn of bacteria (or Sephadex G-200 beads) worms slow their forward movement. The three classes of ciliated dopaminergic neurons (CEPs, ADEs, and PDEs) function redundantly in this behavior (i.e. sensing the mechanosensory stimuli during crawling through bacteria (or the beads) and communicating with the motor circuit to bring about the locomotory change) (Sawin et al., 2000). Another form of motor plasticity related to food presence is area restricted search (ARS). CEP and PDE neurons work synergistically to mediate this behavior while ADE modulates it (Hills et al., 2004).
+14	ADER	Anterior deirids. The sensillar branch from the dorsal process follows a dorsal and frequently posterior trajectory ending laterally within the lateral alae in the anterior third of the body.	- ADEL/R are dopaminergic nose touch mechanoceptors. They modulate locomotion behavior in response to the presence of food by textural mechanosensation, wherein upon encountering a lawn of bacteria (or Sephadex G-200 beads) worms slow their forward movement. The three classes of ciliated dopaminergic neurons (CEPs, ADEs, and PDEs) function redundantly in this behavior (i.e. sensing the mechanosensory stimuli during crawling through bacteria (or the beads) and communicating with the motor circuit to bring about the locomotory change) (Sawin et al., 2000). Another form of motor plasticity related to food presence is area restricted search (ARS). CEP and PDE neurons work synergistically to mediate this behavior while ADE modulates it (Hills et al., 2004).
+15	ADFL	Amphid neurons, with dual (AdF) ciliated sensory endings which are exposed to the external environment. Enter ring via commissure from ventral ganglion. Take up FITC.	ADFL/R are the only serotonergic sensory neurons in the worm and may couple environmental food signals with serotonin neurotransmission (Jafari et al., 2011).
+1516	neuromuscular junction	the connection between a neuron and a muscle	 
+16	ADFR	Amphid neurons, with dual (AdF) ciliated sensory endings which are exposed to the external environment. Enter ring via commissure from ventral ganglion. Take up FITC.	ADFL/R are the only serotonergic sensory neurons in the worm and may couple environmental food signals with serotonin neurotransmission (Jafari et al., 2011).
+17	ADLL	Amphid neurons, dual (AdL) ciliated sensory ending	- ASH, ADL, ASK and ASE sensory neurons are responsible for the detection of certain chemical repellents. ASH plays a major role in this avoidance, whereas ADL, ASK and ASE play minor roles that are only evident when ASH is missing (de Bono and Maricq, 2005; Hiliard et al., 2002; Sambongi et al., 1999; Bargmann et al., 1990). ADL mediate avoidance behavior from heavy metals (Cd++ and Cu++) (Sambongi et al., 1999), odors (e.g. octanol) (Troemel et al., 1995), high osmotic strength and SDS.
+18	ADLR	Amphid neurons, dual (AdL) ciliated sensory ending	- ASH, ADL, ASK and ASE sensory neurons are responsible for the detection of certain chemical repellents. ASH plays a major role in this avoidance, whereas ADL, ASK and ASE play minor roles that are only evident when ASH is missing (de Bono and Maricq, 2005; Hiliard et al., 2002; Sambongi et al., 1999; Bargmann et al., 1990). ADL mediate avoidance behavior from heavy metals (Cd++ and Cu++) (Sambongi et al., 1999), odors (e.g. octanol) (Troemel et al., 1995), high osmotic strength and SDS.
+19	AFDL	Amphid neurons with finger-like (AfD) ciliated end	- Functions in thermotaxis: AFD neurons are the main thermosensors in C. elegans and laser ablation of the AFD pair makes most animals athermotactic (Ma and Shen, 2012; Beverly et al, 2011; Kuhara et al, 2008; Satterlee et al., 2004; Mori and Ohshima, 1995). After cultivation at a uniform temperature (Tc) with sufficient food, animals preferentially migrate to their cultivation temperature (Tc) when placed on a thermal gradient, and move isothermally at this temperature (Hedgecock and Russell 1975). Animals sense and record their Tc by AFD (major thermosensory), AWC and ASI neurons (Beverly et al, 2011; Kuhara et al., 2008; Biron et al., 2008). This memory is plastic and can be reset upon cultivation at a different temperature (Hedgecock and Russell 1975). The AFD, AWC and ASI neurons may to act in concert to increase turning rate when animals encounter higher temperatures than Tc on a gradient to move down the gradient toward colder temperatures near Tc (negative thermotaxis) (Biron et al., 2008). To track isotherms, animals do not actively pursue isothermal alignment, but once serendipitously aligned along an isotherm (at T=Tc), they track by suppressing turns (Luo et al., 2006).This may be achieved by the animal increasing its reversal frequency when it detects a rise in temperature, which activates Ca++ influx in AFD via cGMP-dependent TAX-2/TAX-4 cation channel (cGMP production in AFD is redundantly carried out by GCY-8, GCY-18 and GCY-23 and gcy-23, gcy-8, and gcy-18 triple mutants show a cryophilic or athermotactic phenotype) (Inada et al., 2006). AFD neurons respond to thermal stimuli above Tc with continuous, graded calcium signals in a deterministic and highly reproducible way. The thermal information is transmitted by AFD and AWC to AIY interneurons for information processing, and AIY neurons, in turn, transmit it to AIZ and RIA interneurons for further processing. It is suggested that activation of AFD neurons by warming above Tc induces the animal to reverse by inhibiting AIY since loss of AFD (by ablation) suppresses spontaneous reversals in an AIY-dependent manner, while loss of AIY (by ablation) increases spontaneous reversals (de Bono and Maricq 2005; Tsalik and Hobert, 2003).
+20	AFDR	Amphid neurons with finger-like (AfD) ciliated end	- Functions in thermotaxis: AFD neurons are the main thermosensors in C. elegans and laser ablation of the AFD pair makes most animals athermotactic (Ma and Shen, 2012; Beverly et al, 2011; Kuhara et al, 2008; Satterlee et al., 2004; Mori and Ohshima, 1995). After cultivation at a uniform temperature (Tc) with sufficient food, animals preferentially migrate to their cultivation temperature (Tc) when placed on a thermal gradient, and move isothermally at this temperature (Hedgecock and Russell 1975). Animals sense and record their Tc by AFD (major thermosensory), AWC and ASI neurons (Beverly et al, 2011; Kuhara et al., 2008; Biron et al., 2008). This memory is plastic and can be reset upon cultivation at a different temperature (Hedgecock and Russell 1975). The AFD, AWC and ASI neurons may to act in concert to increase turning rate when animals encounter higher temperatures than Tc on a gradient to move down the gradient toward colder temperatures near Tc (negative thermotaxis) (Biron et al., 2008). To track isotherms, animals do not actively pursue isothermal alignment, but once serendipitously aligned along an isotherm (at T=Tc), they track by suppressing turns (Luo et al., 2006).This may be achieved by the animal increasing its reversal frequency when it detects a rise in temperature, which activates Ca++ influx in AFD via cGMP-dependent TAX-2/TAX-4 cation channel (cGMP production in AFD is redundantly carried out by GCY-8, GCY-18 and GCY-23 and gcy-23, gcy-8, and gcy-18 triple mutants show a cryophilic or athermotactic phenotype) (Inada et al., 2006). AFD neurons respond to thermal stimuli above Tc with continuous, graded calcium signals in a deterministic and highly reproducible way. The thermal information is transmitted by AFD and AWC to AIY interneurons for information processing, and AIY neurons, in turn, transmit it to AIZ and RIA interneurons for further processing. It is suggested that activation of AFD neurons by warming above Tc induces the animal to reverse by inhibiting AIY since loss of AFD (by ablation) suppresses spontaneous reversals in an AIY-dependent manner, while loss of AIY (by ablation) increases spontaneous reversals (de Bono and Maricq 2005; Tsalik and Hobert, 2003).
+21	AIAL	Ring interneurons. AIAL and AIAR are located anter	Integration of information from amphid sensory neurons; AIAL/R is one of the four first layer amphid interneuron pairs (AIA, AIB, AIY, and AIZ) that receives and processes synaptic output from the amphid sensory neurons towards a behavioral response. AIA pair is suggested to sum inputs from various chemosensory neurons before passing the information on to AIB pair, which synapses onto motor neurons (AIA-AIB connections are likely to be inhibitory) (Wakayabashi et al., 2004). AIA is the main target of ASI outputs.
+22	AIAR	Ring interneurons. AIAL and AIAR are located anter	Integration of information from amphid sensory neurons; AIAL/R is one of the four first layer amphid interneuron pairs (AIA, AIB, AIY, and AIZ) that receives and processes synaptic output from the amphid sensory neurons towards a behavioral response. AIA pair is suggested to sum inputs from various chemosensory neurons before passing the information on to AIB pair, which synapses onto motor neurons (AIA-AIB connections are likely to be inhibitory) (Wakayabashi et al., 2004). AIA is the main target of ASI outputs.
+23	AIBL	Amphid interneuron	Integration of information from amphid sensory neurons; AIBL/R is one of the four first layer amphid interneuron pairs (AIA, AIB, AIY, and AIZ) that receives and processes synaptic output from the amphid sensory neurons. AIA pair is suggested to sum inputs from various chemosensory neurons before passing the information on to AIB pair, which synapses onto motor neurons (AIA-AIB connections are likely to be inhibitory) (Wakayabashi et al., 2004).
+24	AIBR	Amphid interneuron	Integration of information from amphid sensory neurons; AIBL/R is one of the four first layer amphid interneuron pairs (AIA, AIB, AIY, and AIZ) that receives and processes synaptic output from the amphid sensory neurons. AIA pair is suggested to sum inputs from various chemosensory neurons before passing the information on to AIB pair, which synapses onto motor neurons (AIA-AIB connections are likely to be inhibitory) (Wakayabashi et al., 2004).
+25	AIML	Ring interneurons bridging between sensory inputs	Serotonin secreted by both synaptic vesicles and dense core vesicles seem to diffuse readily to the extrasynaptic space adjacent to the AIM and RIH neurons. Among 5 classes (NSM, ADF, HSN, AIM, RIH) of serotonergic neurons, RIH and AIM mainly take up serotonin from outside -produced by the remaining serotonergic neurons- via the membrane serotonin transporter (MOD-5/SERT), rather than synthesizing it themselves (Jafari et al., 2011).
+26	AIMR	Ring interneurons bridging between sensory inputs	Serotonin secreted by both synaptic vesicles and dense core vesicles seem to diffuse readily to the extrasynaptic space adjacent to the AIM and RIH neurons. Among 5 classes (NSM, ADF, HSN, AIM, RIH) of serotonergic neurons, RIH and AIM mainly take up serotonin from outside -produced by the remaining serotonergic neurons- via the membrane serotonin transporter (MOD-5/SERT), rather than synthesizing it themselves (Jafari et al., 2011).
+27	AINL	Ring interneuron	AIN is presynaptic to AFD, however, the significance of this connection is not yet clear.
+28	AINR	Ring interneuron	AIN is presynaptic to AFD, however, the significance of this connection is not yet clear.
+29	AIYL	Amphid interneuron	AIY neurons are postsynaptic to several olfactory and gustatory sensory neurons, such as ASE, ASI, AWA, AWC and AFD, and are presumed to play an integrative role, processing multiple streams of sensory information. They have a key role in behavioral plasticity in paradigms in which starvation is paired with a thermal or chemical cue (de Bono and Maricq, 2005; Ishihara et al., 2002).
+30	AIYR	Amphid interneuron	AIY neurons are postsynaptic to several olfactory and gustatory sensory neurons, such as ASE, ASI, AWA, AWC and AFD, and are presumed to play an integrative role, processing multiple streams of sensory information. They have a key role in behavioral plasticity in paradigms in which starvation is paired with a thermal or chemical cue (de Bono and Maricq, 2005; Ishihara et al., 2002).
+31	AIZL	Ring Interneurons	Integration of information from amphid sensory neurons; AIZL/R is one of the four first layer amphid interneuron pairs (AIA, AIB, AIY, and AIZ) that receive and process synaptic output from the amphid sensory neurons towards a behavioral response. Along with the second layer RIA and RIB interneurons, AIZ also receives heavy input from the first layer AIA, AIB, AIY interneurons and itself sends inputs to RIA and RIB. Additionally, it synapses directly onto SMB head motor neurons .
+32	AIZR	Ring Interneurons	Integration of information from amphid sensory neurons; AIZL/R is one of the four first layer amphid interneuron pairs (AIA, AIB, AIY, and AIZ) that receive and process synaptic output from the amphid sensory neurons towards a behavioral response. Along with the second layer RIA and RIB interneurons, AIZ also receives heavy input from the first layer AIA, AIB, AIY interneurons and itself sends inputs to RIA and RIB. Additionally, it synapses directly onto SMB head motor neurons .
+33	ALA	Has two processes that branch from the anterior po	- Involved in inducing normal lethargus quiescence (i.e., cessation of pharyngeal pumping and locomotion during the lethargus periods (an EGF/LET-23-induced sleep-like state prior to molts). ALA neuron inhibits locomotion by inhibiting AVE, which normally functions to promote locomotion. Synapse between ALA and AVE is contacted by the CEPsh glia and CEPsh cells inhibit synaptic transmission from ALA to AVE, promoting locomotion.
+34	ALML	Anterior lateral microtubule cells, touch receptor	Along with AVM and PLM, sense touch to the body and provide input to the command (inter) neurons (PVC, AVB, AVD, AVA) via both synaptic connections and gap junctions (Chalfie et al., 1985). The touch cells form gap junctions with agonist interneurons and chemical synapses with the antagonist interneurons. Hence, the anterior touch cells ALML/R and AVM form gap junctions with the backward movement interneuron AVD, but they provide synaptic input to the forward interneurons (AVB and PVC) (Kaplan and Driscoll, 1997; Goodman, 2006). See body touch circuit here.
+35	ALMR	Anterior lateral microtubule cells, touch receptor	Along with AVM and PLM, sense touch to the body and provide input to the command (inter) neurons (PVC, AVB, AVD, AVA) via both synaptic connections and gap junctions (Chalfie et al., 1985). The touch cells form gap junctions with agonist interneurons and chemical synapses with the antagonist interneurons. Hence, the anterior touch cells ALML/R and AVM form gap junctions with the backward movement interneuron AVD, but they provide synaptic input to the forward interneurons (AVB and PVC) (Kaplan and Driscoll, 1997; Goodman, 2006). See body touch circuit here.
+36	ALNL	Neurons associated with ALM, send processes into t	 
+37	ALNR	Neurons associated with ALM, send processes into t	 
+38	AQR	Postembryonically born neuron with rudimentary cil	Along with PQR, URX and AUA, AQR regulate social feeding (or aggregation on a bacterial lawn) and bordering (the accumulation of animals on the thickest part of a bacterial lawn) behavior since suppressing the activity of AQR, PQR and URX neurons inhibits social feeding (Coates and de Bono , 2002). AQR, PQR and URXfunction as sensors of environmental oxygen which is a quantitative regulator of social feeding (Gray et al., 2004). Decreases in oxygen leads to a dose-dependent suppression of social feeding behavior and bordering. Oxygen acts in parallel to NPR-1 in regulating social feeding behavior.
+39	AS1	Ventral cord motor neurons, born postembryonically	 
+40	AS2	Ventral cord motor neurons, born postembryonically	 
+41	AS3	Ventral cord motor neurons, born postembryonically	 
+42	AS4	Ventral cord motor neurons, born postembryonically	 
+43	AS5	Ventral cord motor neurons, born postembryonically	 
+44	AS6	Ventral cord motor neurons, born postembryonically	 
+45	AS7	Ventral cord motor neurons, born postembryonically	 
+46	AS8	Ventral cord motor neurons, born postembryonically	 
+47	AS9	Ventral cord motor neurons, born postembryonically	 
+48	AS10	Ventral cord motor neurons, born postembryonically	 
+49	AS11	Ventral cord motor neurons, born postembryonically	 
+50	ASEL	Amphid neurons, single ciliated endings, project i	- Involved in chemotaxis to cAMP, biotin, Cl-, Na+ and lysine; ASEL is primarily sensitive to Na+ , whereas ASER is primarily sensitive to Cl- and K+ (Pierce-Shimomura et al., 2001; Bargmann and Horvitz, 1991; ). Opposite intacellular Ca++ transients are suggested to be generated in ASEL and ASER in response to changes in NaCl concentrations (Suzuki et al., 2004).
+51	ASER	Amphid neurons, single ciliated endings, project i	- Involved in chemotaxis to cAMP, biotin, Cl-, Na+ and lysine; ASEL is primarily sensitive to Na+ , whereas ASER is primarily sensitive to Cl- and K+ (Pierce-Shimomura et al., 2001; Bargmann and Horvitz, 1991; ). Opposite intacellular Ca++ transients are suggested to be generated in ASEL and ASER in response to changes in NaCl concentrations (Suzuki et al., 2004).
+52	ASGL	Amphid neurons, single ciliated endings, project i	Involved in chemotaxis to lysine, contribute to a residual chemotactic response to cAMP, biotin, Cl-, and Na+ after ASE is killed (Bargmann and Horvitz, 1991). Controls entry into dauer stage (Bargmann and Horvitz, 1991).
+53	ASGR	Amphid neurons, single ciliated endings, project i	Involved in chemotaxis to lysine, contribute to a residual chemotactic response to cAMP, biotin, Cl-, and Na+ after ASE is killed (Bargmann and Horvitz, 1991). Controls entry into dauer stage (Bargmann and Horvitz, 1991).
+54	ASHL	Amphid neurons, single ciliated endings, project i	- ASH plays a major role in avoidance responses to nose touch, hyperosmolarity (note: a mutation in the glr-1 (glutamate receptor subunit) gene which acts in synaptic targets of the ASH neurons, eliminates the response to nose touch but not to osmotic repellents), volatile repellent chemicals (1-octanol), heavy metals (Cd++ and Cu++), detergents/SDS, protons, alkaloids such as quinine (ASH is the main sensory neuron responsible for quinine detection and ASK plays a minor role) (de Bono & Villu Maricq, 2005; Bargmann, 2006; Hilliard et al, 2004; Hiliard et al., 2002; Hart et al., 1999; Sambongi et al., 2000; Sambongi et al., 1999; Troemel et al., 1995; Bargmann et al, 1990; Culotti & Russell 1978.)
+55	ASHR	Amphid neurons, single ciliated endings, project i	- ASH plays a major role in avoidance responses to nose touch, hyperosmolarity (note: a mutation in the glr-1 (glutamate receptor subunit) gene which acts in synaptic targets of the ASH neurons, eliminates the response to nose touch but not to osmotic repellents), volatile repellent chemicals (1-octanol), heavy metals (Cd++ and Cu++), detergents/SDS, protons, alkaloids such as quinine (ASH is the main sensory neuron responsible for quinine detection and ASK plays a minor role) (de Bono & Villu Maricq, 2005; Bargmann, 2006; Hilliard et al, 2004; Hiliard et al., 2002; Hart et al., 1999; Sambongi et al., 2000; Sambongi et al., 1999; Troemel et al., 1995; Bargmann et al, 1990; Culotti & Russell 1978.)
+56	ASIL	Amphid neurons, single ciliated endings, project i	Gustatory sensory neurons. The main synpatic output of ASI is on to AIA interneuron.
+57	ASIR	Amphid neurons, single ciliated endings, project i	Gustatory sensory neurons. The main synpatic output of ASI is on to AIA interneuron.
+58	ASJL	Amphid neurons, single ciliated endings, project i	Controls exit from dauer stage (Bargmann and Horvitz, 1991).
+59	ASJR	Amphid neurons, single ciliated endings, project i	Controls exit from dauer stage (Bargmann and Horvitz, 1991).
+60	ASKL	Amphid neurons, single ciliated endings, project i	- Involved in chemotaxis to lysine (Bargmann and Horvitz, 1991).
+61	ASKR	Amphid neurons, single ciliated endings, project i	- Involved in chemotaxis to lysine (Bargmann and Horvitz, 1991).
+62	AUAL	Neuron, process runs with amphid processes but lac	Regulate social feeding behavior along with AQR, PQR and URX neurons (Coates and de Bono, 2002).
+63	AUAR	Neuron, process runs with amphid processes but lac	Regulate social feeding behavior along with AQR, PQR and URX neurons (Coates and de Bono, 2002).
+64	AVAL	Ventral cord interneuron	Command interneuron. Functions as driver cell for backward locomotion. Drives backward movement of the animal along with touch modulator AVD neuron, AVE and A-type motor neurons.
+65	AVAR	Ventral cord interneuron	Command interneuron. Functions as driver cell for backward locomotion. Drives backward movement of the animal along with touch modulator AVD neuron, AVE and A-type motor neurons.
+66	AVBL	Ventral cord interneuron	Command interneuron. Functions as driver cell for forward locomotion. Drives forward movement of the animal along with the touch modulator, PVC, and B-type motor neurons.
+67	AVBR	Ventral cord interneuron	Command interneuron. Functions as driver cell for forward locomotion. Drives forward movement of the animal along with the touch modulator, PVC, and B-type motor neurons.
+68	AVDL	Ventral cord interneuron	Command interneuron. Functions as touch modulator for backward locomotion induced by head-touch. Drives backward movement of the animal along with driver cell AVA neuron, AVE and A-type motor neurons
+69	AVDR	Ventral cord interneuron	Command interneuron. Functions as touch modulator for backward locomotion induced by head-touch. Drives backward movement of the animal along with driver cell AVA neuron, AVE and A-type motor neurons
+70	AVEL	Ventral cord interneuron, like AVD but outputs res	Command interneuron. Drive backward movement of the animal along with AVA, AVD and A-type motor neurons.
+71	AVER	Ventral cord interneuron, like AVD but outputs res	Command interneuron. Drive backward movement of the animal along with AVA, AVD and A-type motor neurons.
+72	AVFL	Interneuron	 
+73	AVFR	Interneuron	 
+74	AVG	Ventral cord interneuron	Anterior guidepost neuron. AVG pioneers the right tract of the ventral nerve cord. It expresses UNC-6 at 3-fold embryo stage to provide a continuous UNC-6 (netrin)-labeled pathway restricted to the right tract of the nerve cord. The unilateral UNC-6 cue from AVG guides various paired axons growing from the nerve ring and lumbar ganglia to make rightward decussations as they enter the ventral nerve cord. UNC-6 also promotes bundling of axons within the cord itself. If the parent of AVG is ablated in wild-type embryos, interneurons and ventral cord motor neurons form several small fascicles rather than one tight bundle of right side tract and occasionally the right side axons shift to the left side (Wadsworth et al., 1996; Wadsworth and Hedgecock, 1986; Durbin 1987; Antebi et al., 1997).
+75	AVHL	Neuron, mainly postsynaptic in ventral cord and pr	 
+76	AVHR	Neuron, mainly postsynaptic in ventral cord and pr	 
+77	AVJL	Neuron, synapses like AVHL/R	 
+78	AVJR	Neuron, synapses like AVHL/R	 
+79	AVKL	Ring and ventral cord interneuron	 
+80	AVKR	Ring and ventral cord interneuron	 
+81	AVL	Ring and ventral cord interneuron and an excitator	Defecation. AVL and DVB are excitatory GABAergic motor neurons for the enteric muscles (Avery and Thomas, 1997; McIntire et al., 1993). Together with DVB, activates expulsion muscle contraction (E.p or EMC), also required for anterior body contraction (aBoc) step in defecation motor program (DMP).
+82	AVM	Anterior ventral microtubule cell, touch receptor	 
+83	AWAL	Amphid wing cells, neurons having ciliated sheet-l	Chemotaxis to diacetyl, pyrazine, trimethylthiazole (Bargmann et al., 1993). One of the three core sensory neurons (AWA, AWC, ASK) that are required for sexual-attraction in males (White and Jorgensen, 2012).
+84	AWAR	Amphid wing cells, neurons having ciliated sheet-l	Chemotaxis to diacetyl, pyrazine, trimethylthiazole (Bargmann et al., 1993). One of the three core sensory neurons (AWA, AWC, ASK) that are required for sexual-attraction in males (White and Jorgensen, 2012).
+85	AWBL	Amphid wing cells, neurons having ciliated sheet-l	Avoidance from 2-nonanone, 1-octanol (Troemel et al., 1997).
+86	AWBR	Amphid wing cells, neurons having ciliated sheet-l	Avoidance from 2-nonanone, 1-octanol (Troemel et al., 1997).
+87	AWCL	Amphid wing cells, neurons having ciliated sheet-l	- AWC olfactory neurons are critical for chemotaxis to volatile odorants, (e.g. chemotaxis to benzaldehyde, butanone, isoamylalcohol, 2,3 pentanedione and 2,4,5 trimethylthiazole)
+88	AWCR	Amphid wing cells, neurons having ciliated sheet-l	- AWC olfactory neurons are critical for chemotaxis to volatile odorants, (e.g. chemotaxis to benzaldehyde, butanone, isoamylalcohol, 2,3 pentanedione and 2,4,5 trimethylthiazole)
+89	BAGL	Neuron, ciliated ending in head, no supporting cel	A neural circuit that includes BAG neurons mediate acute CO2 avoidance (Hallem and Sternberg, 2008; Bretscher et al., 2008)
+90	BAGR	Neuron, ciliated ending in head, no supporting cel	A neural circuit that includes BAG neurons mediate acute CO2 avoidance (Hallem and Sternberg, 2008; Bretscher et al., 2008)
+91	BDUL	Neuron, process runs along excretory canal and int	Express neuropeptide-like proteins, NLP-1 and NLP-15 (Nathoo et al., 2001).
+92	BDUR	Neuron, process runs along excretory canal and int	Express neuropeptide-like proteins, NLP-1 and NLP-15 (Nathoo et al., 2001).
+93	CANL	Process runs along excretory canal, no synapses, e	 
+94	CANR	Process runs along excretory canal, no synapses, e	 
+95	CEPDL	Cephalic neurons, contain dopamine	Mechanosensory function in the head. When well-fed C. elegans hermaphrodites are washed clean of bacteria and then reintroduced to the bacterial lawn, they move more slowly than when transferred to an environment without bacteria. This behavior is described as "basal slowing response". The three classes of dopaminergic neurons (CEPs, ADEs, and PDEs) function redundantly to sense the mechanosensory stimulus from bacteria and mediate the motor circuit to control this behavioral change (Sawin et al., 2000).
+96	CEPDR	Cephalic neurons, contain dopamine	Mechanosensory function in the head. When well-fed C. elegans hermaphrodites are washed clean of bacteria and then reintroduced to the bacterial lawn, they move more slowly than when transferred to an environment without bacteria. This behavior is described as "basal slowing response". The three classes of dopaminergic neurons (CEPs, ADEs, and PDEs) function redundantly to sense the mechanosensory stimulus from bacteria and mediate the motor circuit to control this behavioral change (Sawin et al., 2000).
+97	CEPVL	Cephalic neurons, contain dopamine	Mechanosensory function in the head. When well-fed C. elegans hermaphrodites are washed clean of bacteria and then reintroduced to the bacterial lawn, they move more slowly than when transferred to an environment without bacteria. This behavior is described as "basal slowing response". The three classes of dopaminergic neurons (CEPs, ADEs, and PDEs) function redundantly to sense the mechanosensory stimulus from bacteria and mediate the motor circuit to control this behavioral change (Sawin et al., 2000).
+98	CEPVR	Cephalic neurons, contain dopamine	Mechanosensory function in the head. When well-fed C. elegans hermaphrodites are washed clean of bacteria and then reintroduced to the bacterial lawn, they move more slowly than when transferred to an environment without bacteria. This behavior is described as "basal slowing response". The three classes of dopaminergic neurons (CEPs, ADEs, and PDEs) function redundantly to sense the mechanosensory stimulus from bacteria and mediate the motor circuit to control this behavioral change (Sawin et al., 2000).
+99	DA1	Ventral cord motor neurons, innervate dorsal muscl	Backward locomotion. DA's receive input from the driver interneuron AVA, and modulator interneurons AVD and AVE. They send output to VD neurons.
+100	DA2	Ventral cord motor neurons, innervate dorsal muscl	Backward locomotion. DA's receive input from the driver interneuron AVA, and modulator interneurons AVD and AVE. They send output to VD neurons.
+101	DA3	Ventral cord motor neurons, innervate dorsal muscl	Backward locomotion. DA's receive input from the driver interneuron AVA, and modulator interneurons AVD and AVE. They send output to VD neurons.
+102	DA4	Ventral cord motor neurons, innervate dorsal muscl	Backward locomotion. DA's receive input from the driver interneuron AVA, and modulator interneurons AVD and AVE. They send output to VD neurons.
+103	DA5	Ventral cord motor neurons, innervate dorsal muscl	Backward locomotion. DA's receive input from the driver interneuron AVA, and modulator interneurons AVD and AVE. They send output to VD neurons.
+104	DA6	Ventral cord motor neurons, innervate dorsal muscl	Backward locomotion. DA's receive input from the driver interneuron AVA, and modulator interneurons AVD and AVE. They send output to VD neurons.
+105	DA7	Ventral cord motor neurons, innervate dorsal muscl	Backward locomotion. DA's receive input from the driver interneuron AVA, and modulator interneurons AVD and AVE. They send output to VD neurons.
+106	DA8	Ventral cord motor neurons, innervate dorsal muscl	Backward locomotion. DA's receive input from the driver interneuron AVA, and modulator interneurons AVD and AVE. They send output to VD neurons.
+107	DA9	Ventral cord motor neurons, innervate dorsal muscl	Backward locomotion. DA's receive input from the driver interneuron AVA, and modulator interneurons AVD and AVE. They send output to VD neurons.
+108	DB1	Ventral cord motor neurons, innervate dorsal muscl	Forward locomotion. DB's receive input from the command interneurons, AVB and PVC. They send output to VD neurons.
+109	DB2	Ventral cord motor neurons, innervate dorsal muscl	Forward locomotion. DB's receive input from the command interneurons, AVB and PVC. They send output to VD neurons.
+110	DB3	Ventral cord motor neurons, innervate dorsal muscl	Forward locomotion. DB's receive input from the command interneurons, AVB and PVC. They send output to VD neurons.
+111	DB4	Ventral cord motor neurons, innervate dorsal muscl	Forward locomotion. DB's receive input from the command interneurons, AVB and PVC. They send output to VD neurons.
+112	DB5	Ventral cord motor neurons, innervate dorsal muscl	Forward locomotion. DB's receive input from the command interneurons, AVB and PVC. They send output to VD neurons.
+113	DB6	Ventral cord motor neurons, innervate dorsal muscl	Forward locomotion. DB's receive input from the command interneurons, AVB and PVC. They send output to VD neurons.
+114	DB7	Ventral cord motor neurons, innervate dorsal muscl	Forward locomotion. DB's receive input from the command interneurons, AVB and PVC. They send output to VD neurons.
+115	DD1	Ventral cord motor neurons, reciprocal inhibitors,	Sinusoidal body movement. DD's receive input from VA and VB neurons, and hence, are likely to be active during ventral muscle contractions. They form neuromuscular junctions dorsally that coordinately relax the dorsal muscles during ventral muscle contraction (Driscoll and Kaplan, 1997). D-type neurons may also regulate the wave amplitude of the sinusoidal movement since unc-25 and unc-30 mutants that lack functional D neurons generate rhythmic sinusoidal movement with a reduced amplitude (McIntire et al., 1993).
+116	DD2	Ventral cord motor neurons, reciprocal inhibitors,	Sinusoidal body movement. DD's receive input from VA and VB neurons, and hence, are likely to be active during ventral muscle contractions. They form neuromuscular junctions dorsally that coordinately relax the dorsal muscles during ventral muscle contraction (Driscoll and Kaplan, 1997). D-type neurons may also regulate the wave amplitude of the sinusoidal movement since unc-25 and unc-30 mutants that lack functional D neurons generate rhythmic sinusoidal movement with a reduced amplitude (McIntire et al., 1993).
+117	DD3	Ventral cord motor neurons, reciprocal inhibitors,	Sinusoidal body movement. DD's receive input from VA and VB neurons, and hence, are likely to be active during ventral muscle contractions. They form neuromuscular junctions dorsally that coordinately relax the dorsal muscles during ventral muscle contraction (Driscoll and Kaplan, 1997). D-type neurons may also regulate the wave amplitude of the sinusoidal movement since unc-25 and unc-30 mutants that lack functional D neurons generate rhythmic sinusoidal movement with a reduced amplitude (McIntire et al., 1993).
+118	DD4	Ventral cord motor neurons, reciprocal inhibitors,	Sinusoidal body movement. DD's receive input from VA and VB neurons, and hence, are likely to be active during ventral muscle contractions. They form neuromuscular junctions dorsally that coordinately relax the dorsal muscles during ventral muscle contraction (Driscoll and Kaplan, 1997). D-type neurons may also regulate the wave amplitude of the sinusoidal movement since unc-25 and unc-30 mutants that lack functional D neurons generate rhythmic sinusoidal movement with a reduced amplitude (McIntire et al., 1993).
+119	DD5	Ventral cord motor neurons, reciprocal inhibitors,	Sinusoidal body movement. DD's receive input from VA and VB neurons, and hence, are likely to be active during ventral muscle contractions. They form neuromuscular junctions dorsally that coordinately relax the dorsal muscles during ventral muscle contraction (Driscoll and Kaplan, 1997). D-type neurons may also regulate the wave amplitude of the sinusoidal movement since unc-25 and unc-30 mutants that lack functional D neurons generate rhythmic sinusoidal movement with a reduced amplitude (McIntire et al., 1993).
+120	DD6	Ventral cord motor neurons, reciprocal inhibitors,	Sinusoidal body movement. DD's receive input from VA and VB neurons, and hence, are likely to be active during ventral muscle contractions. They form neuromuscular junctions dorsally that coordinately relax the dorsal muscles during ventral muscle contraction (Driscoll and Kaplan, 1997). D-type neurons may also regulate the wave amplitude of the sinusoidal movement since unc-25 and unc-30 mutants that lack functional D neurons generate rhythmic sinusoidal movement with a reduced amplitude (McIntire et al., 1993).
+121	DVA	Ring interneurons, cell bodies in dorsorectal gang	Mechanosensory integration. The PVD and DVA neurons are presynaptic to both the forward and backing interneurons, and provide input to both the anterior and posterior touch circuits. Animals lacking these neurons respond to tap stimulus with diminished forward accelerations and reversals. These neurons, therefore, seem to maintain the overall activity of the touch circuit (Wicks et al., 1996; Driscoll and Kaplan, 1997; Goodman, 2007). DVA represents a stretch receptor neuron that regulates sensory-motor integration during C. elegans locomotion. trp-4, a homologue of the mechanosensitive TRPN channel, acts as a stretch-sensitive proprioceptor in DVA. DVA both positively and negatively modulates locomotion, providing a unique mechanism whereby a single neuron can fine-tune motor activity (Li et al., 2006).
+122	DVB	An excitatory GABAergic motor neuron/interneuron l	Defecation. AVL and DVB are excitatory GABAergic motor neurons for the enteric muscles (Avery and Thomas, 1997; McIntire et al., 1993). Together with AVL, activates expulsion muscle contraction (E.p or EMC).
+123	DVC	Ring interneurons, cell bodies in dorsorectal gang	 
+124	FLPL	Have ciliated endings in head, not part of a sensi	Nose touch avoidance. Nose-on collision with an object such as an eyelash initiates backward movement of C. elegans. Three classes of mechanosensory neurons (ASH, FLP, and OLQ) act in parallel to mediate this response. Each sensory neuron class accounts for a fraction of the normal response, as follows: ASH, 45%; FLP, 29%; and OLQ, 5%. The remaining responses (~10%) are mediated by the ALM and AVM neurons, which sense anterior body touch (Kaplan and Driscoll, 1997; Goodman, 2006).
+125	FLPR	Have ciliated endings in head, not part of a sensi	Nose touch avoidance. Nose-on collision with an object such as an eyelash initiates backward movement of C. elegans. Three classes of mechanosensory neurons (ASH, FLP, and OLQ) act in parallel to mediate this response. Each sensory neuron class accounts for a fraction of the normal response, as follows: ASH, 45%; FLP, 29%; and OLQ, 5%. The remaining responses (~10%) are mediated by the ALM and AVM neurons, which sense anterior body touch (Kaplan and Driscoll, 1997; Goodman, 2006).
+126	HSNL	Hermaphrodite specific motor neurons. These cells	Innervate the vulval muscles and stimulate egg laying by hermaphrodites. Laser ablation of both HSN neurons results in animals that fail to lay eggs normally and become severely bloated with eggs retained in the uterus (egl phenotype). HSN neurons are the only neurons of the egg-laying circuitry, as defined by the synaptic connectivity, that have been shown to be required for normal egg-laying (Chalfie and White, 1988). Hermaphrodites that lack the HSN motor neurons do lay eggs in response to exogenous serotonin (Trent et al, 1983).
+127	HSNR	Hermaphrodite specific motor neurons. These cells	Innervate the vulval muscles and stimulate egg laying by hermaphrodites. Laser ablation of both HSN neurons results in animals that fail to lay eggs normally and become severely bloated with eggs retained in the uterus (egl phenotype). HSN neurons are the only neurons of the egg-laying circuitry, as defined by the synaptic connectivity, that have been shown to be required for normal egg-laying (Chalfie and White, 1988). Hermaphrodites that lack the HSN motor neurons do lay eggs in response to exogenous serotonin (Trent et al, 1983).
+128	I1L	Pharyngeal interneurons. The anterior projections	The pharyngeal and somatic nervous systems are connected to each other via gap junctions between the extrapharyngeal RIP neurons and the pharyngeal I1 neurons. When this connection is disrupted by ablation of RIPs, pharyngeal pumping becomes unresponsive to light touch which is sensed by somatic touch neurons (Avery and Thomas, 1997). I1s also synapse on MC neurons and modulate the rate of pharyngeal pumping in the absence of bacteria (Avery and Thomas, 1997).
+129	I1R	Pharyngeal interneurons. The anterior projections	The pharyngeal and somatic nervous systems are connected to each other via gap junctions between the extrapharyngeal RIP neurons and the pharyngeal I1 neurons. When this connection is disrupted by ablation of RIPs, pharyngeal pumping becomes unresponsive to light touch which is sensed by somatic touch neurons (Avery and Thomas, 1997). I1s also synapse on MC neurons and modulate the rate of pharyngeal pumping in the absence of bacteria (Avery and Thomas, 1997).
+130	I2L	Pharyngeal interneurons. At the most anterior end	Unknown or redundant (Avery and Thomas, 1997).
+131	I2R	Pharyngeal interneurons. At the most anterior end	Unknown or redundant (Avery and Thomas, 1997).
+132	I3	Pharyngeal interneuron. Anteriorly, I3 is inserted	Unknown or redundant (Avery and Thomas, 1997).
+133	I4	Pharyngeal interneuron. The soma of I4 is located	Unknown or redundant (Avery and Thomas, 1997).
+134	I5	Pharyngeal interneuron. I5 has a very large cell b	M3 and I5 are suggested to facilitate bacterial trapping by regulating the relative duration of muscle relaxation in different regions of the pharynx (Avery, 1993). Pharyngeal relaxation becomes quicker when I5 is ablated. When both I5 and M3 are ablated there is a delay in relaxation that is indistinguishable from that caused by ablation of M3 alone, suggesting I5 slows down relaxation by inhibiting M3 (Avery and Thomas, 1997)
+135	I6	A bipolar pharyngeal interneuron. Its shorter proc	Unknown or redundant (Avery and Thomas, 1997).
+136	IL1DL	Neurons of inner labial sensilla, ciliated endings	When worms are touched on either the dorsal or ventral sides of their nose with an eyelash, they interrupt the normal pattern of foraging and undergo an aversive head-withdrawal reflex. This simple reflex is mediated by two classes of mechanosensory neurons (OLQ and IL1) and their synaptic targets, the RMD motor neurons. Killing any of these cells, alone or in combination, diminishes the head withdrawal reflex. IL1, OLQ, and RMD also regulate spontaneous foraging movements. Laser operated animals lacking IL1 and OLQ forage abnormally slowly and make exaggerated dorsal and ventral nose turns (Hart et al., 1995; Kaplan and Driscoll, 1997; Goodman, 2006).
+137	IL1DR	Neurons of inner labial sensilla, ciliated endings	When worms are touched on either the dorsal or ventral sides of their nose with an eyelash, they interrupt the normal pattern of foraging and undergo an aversive head-withdrawal reflex. This simple reflex is mediated by two classes of mechanosensory neurons (OLQ and IL1) and their synaptic targets, the RMD motor neurons. Killing any of these cells, alone or in combination, diminishes the head withdrawal reflex. IL1, OLQ, and RMD also regulate spontaneous foraging movements. Laser operated animals lacking IL1 and OLQ forage abnormally slowly and make exaggerated dorsal and ventral nose turns (Hart et al., 1995; Kaplan and Driscoll, 1997; Goodman, 2006).
+138	IL1L	Neurons of inner labial sensilla, ciliated endings	When worms are touched on either the dorsal or ventral sides of their nose with an eyelash, they interrupt the normal pattern of foraging and undergo an aversive head-withdrawal reflex. This simple reflex is mediated by two classes of mechanosensory neurons (OLQ and IL1) and their synaptic targets, the RMD motor neurons. Killing any of these cells, alone or in combination, diminishes the head withdrawal reflex. IL1, OLQ, and RMD also regulate spontaneous foraging movements. Laser operated animals lacking IL1 and OLQ forage abnormally slowly and make exaggerated dorsal and ventral nose turns (Hart et al., 1995; Kaplan and Driscoll, 1997; Goodman, 2006).
+139	IL1R	Neurons of inner labial sensilla, ciliated endings	When worms are touched on either the dorsal or ventral sides of their nose with an eyelash, they interrupt the normal pattern of foraging and undergo an aversive head-withdrawal reflex. This simple reflex is mediated by two classes of mechanosensory neurons (OLQ and IL1) and their synaptic targets, the RMD motor neurons. Killing any of these cells, alone or in combination, diminishes the head withdrawal reflex. IL1, OLQ, and RMD also regulate spontaneous foraging movements. Laser operated animals lacking IL1 and OLQ forage abnormally slowly and make exaggerated dorsal and ventral nose turns (Hart et al., 1995; Kaplan and Driscoll, 1997; Goodman, 2006).
+140	IL1VL	Neurons of inner labial sensilla, ciliated endings	When worms are touched on either the dorsal or ventral sides of their nose with an eyelash, they interrupt the normal pattern of foraging and undergo an aversive head-withdrawal reflex. This simple reflex is mediated by two classes of mechanosensory neurons (OLQ and IL1) and their synaptic targets, the RMD motor neurons. Killing any of these cells, alone or in combination, diminishes the head withdrawal reflex. IL1, OLQ, and RMD also regulate spontaneous foraging movements. Laser operated animals lacking IL1 and OLQ forage abnormally slowly and make exaggerated dorsal and ventral nose turns (Hart et al., 1995; Kaplan and Driscoll, 1997; Goodman, 2006).
+141	IL1VR	Neurons of inner labial sensilla, ciliated endings	When worms are touched on either the dorsal or ventral sides of their nose with an eyelash, they interrupt the normal pattern of foraging and undergo an aversive head-withdrawal reflex. This simple reflex is mediated by two classes of mechanosensory neurons (OLQ and IL1) and their synaptic targets, the RMD motor neurons. Killing any of these cells, alone or in combination, diminishes the head withdrawal reflex. IL1, OLQ, and RMD also regulate spontaneous foraging movements. Laser operated animals lacking IL1 and OLQ forage abnormally slowly and make exaggerated dorsal and ventral nose turns (Hart et al., 1995; Kaplan and Driscoll, 1997; Goodman, 2006).
+142	IL2DL	Neurons of inner labial sensilla, ciliated endings. Found in nose.	 
+143	IL2DR	Neurons of inner labial sensilla, ciliated endings. Found in nose.	 
+144	IL2L	Neurons of inner labial sensilla, ciliated endings	 
+145	IL2R	Neurons of inner labial sensilla, ciliated endings	 
+146	IL2VL	Neurons of inner labial sensilla, ciliated endings	 
+147	IL2VR	Neurons of inner labial sensilla, ciliated endings	 
+148	LUAL	Interneuron, short process in post ventral cord	Suggested to be a "connector cell" between the PLM touch receptors, with which they make gap junctions along the lumbar commissures, and AVA/D interneurons, with which they make chemical synapses in the ventral cord (Chalfie et al., 1985). However, laser ablation does not lead to any abnormalities of movement or touch sensitivity (Chalfie et al., 1985) and no role in tap-withdrawal reflex has been found (Wicks and Rankin, 1995).
+149	LUAR	Interneuron, short process in post ventral cord	Suggested to be a "connector cell" between the PLM touch receptors, with which they make gap junctions along the lumbar commissures, and AVA/D interneurons, with which they make chemical synapses in the ventral cord (Chalfie et al., 1985). However, laser ablation does not lead to any abnormalities of movement or touch sensitivity (Chalfie et al., 1985) and no role in tap-withdrawal reflex has been found (Wicks and Rankin, 1995).
+150	M1	The cell body of M1 is located subdorsally between	Unknown or redundant (Avery and Thomas, 1997).
+151	M2L	M2L/R are a pair of unipolar neurons with processe	Unknown or redundant (Avery and Thomas, 1997; Chiang et al., 2002).
+152	M2R	M2L/R are a pair of unipolar neurons with processe	Unknown or redundant (Avery and Thomas, 1997; Chiang et al., 2002).
+153	M3L	M3s are a bilaterally symmetric pair of inhibitory	M3s modulate the timing of pharyngeal relaxation in corpus and promote rapid relaxation of the pharyngeal muscle following contraction. When M3s are decoupled from the pharyngeal muscle by mutating the postsynaptic receptor (a glutamate-gated chloride channel partly encoded by avr-15) for M3 neurotransmission, the duration of pharyngeal contraction increases (Dent et al., 1997). Each M3 is suggested to be proprioceptive and fire in response to corpus muscle contraction, which, in turn, induces inhibitory postsynaptic potentials (repolarization) and relaxation of the muscle. This relaxation seems to be important for effective transport of bacteria within the lumen (Avery and Thomas, 1997). Exogenous serotonin mimics the presence of food and induces rapid contraction-relaxation cycles with shortened action potentials in pharynx. This effect is dependent on MC and M3 neurons (see model below) (Niacaris and Avery, 2003).
+154	M3R	M3s are a bilaterally symmetric pair of inhibitory	M3s modulate the timing of pharyngeal relaxation in corpus and promote rapid relaxation of the pharyngeal muscle following contraction. When M3s are decoupled from the pharyngeal muscle by mutating the postsynaptic receptor (a glutamate-gated chloride channel partly encoded by avr-15) for M3 neurotransmission, the duration of pharyngeal contraction increases (Dent et al., 1997). Each M3 is suggested to be proprioceptive and fire in response to corpus muscle contraction, which, in turn, induces inhibitory postsynaptic potentials (repolarization) and relaxation of the muscle. This relaxation seems to be important for effective transport of bacteria within the lumen (Avery and Thomas, 1997). Exogenous serotonin mimics the presence of food and induces rapid contraction-relaxation cycles with shortened action potentials in pharynx. This effect is dependent on MC and M3 neurons (see model below) (Niacaris and Avery, 2003).
+155	M4	The cell body of M4 is located dorsally at the lev	M4 is essential for feeding in wild- type worms. M4 synapses on the isthmus and the terminal bulb, and is necessary for posterior isthmus peristalsis (Avery and Thomas, 1997). Worms lacking M4 continue pumping, however, bacteria become trapped in corpus and anterior isthmus and these worms fail to grow since they can not pass the food to their intestines.
+156	M5	M5 is located subdorsally on the left, posterior t	Unknown or redundant (Avery and Thomas, 1997).
+157	MCL	MC's are a pair of cholinergic excitatory (motor)	MC's control the frequency of pharyngeal pumping (Avery and Thomas, 1997). They initiate pharyngeal muscle action potentials, and hence, function as pacemakers of pumping. Release of Ach from MC neurons stimulates the muscle via a postsynaptic nicotinic ACh receptor encoded by eat-2 (Niacaris and Avery, 2003; McKay et al., 2004). In eat-2 mutants MC is decoupled from pharyngeal muscle and the pharynx is unable to pump rapidly in the presence of food. Modulators of pharyngeal pumping such as exogenous serotonin mostly act through MC neurons.
+158	MCR	MC's are a pair of cholinergic excitatory (motor)	MC's control the frequency of pharyngeal pumping (Avery and Thomas, 1997). They initiate pharyngeal muscle action potentials, and hence, function as pacemakers of pumping. Release of Ach from MC neurons stimulates the muscle via a postsynaptic nicotinic ACh receptor encoded by eat-2 (Niacaris and Avery, 2003; McKay et al., 2004). In eat-2 mutants MC is decoupled from pharyngeal muscle and the pharynx is unable to pump rapidly in the presence of food. Modulators of pharyngeal pumping such as exogenous serotonin mostly act through MC neurons.
+159	MI	MI is a unipolar neuron which is located in the do	Unknown or redundant (Avery and Thomas, 1997).
+160	NSML	NSM cell bodies are located in the pharyngeal subv	Initially suggested to have neurohumoral function signaling the presence of food to the body since NSM's appear secretory by morphology and have processes that run in close apposition to the pseudocoelom over most of their lengths (Albertson and Thomson, 1976, Avery and Thomas, 1997). They were postulated to sense bacteria in their lumen by their proprioceptive endings and transmit this to the rest of the body by secretions to the pseudocoelomic fluid. The presence of food leads to increased pharyngeal pumping, decreased locomotion and increased egg-laying behavior. Exogenous application of serotonin also induces these responses supporting the hypothesis NSM's can function neurohumorally by serotonin secretion. However, ablation of NSM's have only subtle effects on pumping suggesting they may not play any important role in this behavior (Avery et al., 1993, Avery and Thomas, 1997). When placed on a bacterial lawn, previously food-deprived animals slow down their locomotion to a higher degree compared to well-fed animals. This phenomenon is described as "the enhanced slowing response". When NSM's are ablated there is a small but significant decrease in the enhanced slowing response suggesting NSM's contribute to this behavior (Sawin et al., 2000).
+161	NSMR	NSM cell bodies are located in the pharyngeal subv	Initially suggested to have neurohumoral function signaling the presence of food to the body since NSM's appear secretory by morphology and have processes that run in close apposition to the pseudocoelom over most of their lengths (Albertson and Thomson, 1976, Avery and Thomas, 1997). They were postulated to sense bacteria in their lumen by their proprioceptive endings and transmit this to the rest of the body by secretions to the pseudocoelomic fluid. The presence of food leads to increased pharyngeal pumping, decreased locomotion and increased egg-laying behavior. Exogenous application of serotonin also induces these responses supporting the hypothesis NSM's can function neurohumorally by serotonin secretion. However, ablation of NSM's have only subtle effects on pumping suggesting they may not play any important role in this behavior (Avery et al., 1993, Avery and Thomas, 1997). When placed on a bacterial lawn, previously food-deprived animals slow down their locomotion to a higher degree compared to well-fed animals. This phenomenon is described as "the enhanced slowing response". When NSM's are ablated there is a small but significant decrease in the enhanced slowing response suggesting NSM's contribute to this behavior (Sawin et al., 2000).
+162	OLLL	Neurons of outer labial lateral sensilla, ciliated	Putative mechanosensory.
+163	OLLR	Neurons of outer labial lateral sensilla, ciliated	Putative mechanosensory.
+164	OLQDL	Neurons of outer labial lateral sensilla, ciliated	When worms are touched on either the dorsal or ventral sides of their nose with an eyelash, they interrupt the normal pattern of foraging and undergo an aversive head-withdrawal reflex. This simple reflex is mediated by two classes of mechanosensory neurons (OLQ and IL1) and their synaptic targets, the RMD motor neurons. Killing any of these cells, alone or in combination, diminishes the head withdrawal reflex. IL1, OLQ, and RMD also regulate spontaneous foraging movements. Laser operated animals lacking IL1 and OLQ forage abnormally slowly and make exaggerated dorsal and ventral nose turns (Hart et al., 1995; Kaplan and Driscoll, 1997; Goodman, 2006).
+165	OLQDR	Neurons of outer labial lateral sensilla, ciliated	When worms are touched on either the dorsal or ventral sides of their nose with an eyelash, they interrupt the normal pattern of foraging and undergo an aversive head-withdrawal reflex. This simple reflex is mediated by two classes of mechanosensory neurons (OLQ and IL1) and their synaptic targets, the RMD motor neurons. Killing any of these cells, alone or in combination, diminishes the head withdrawal reflex. IL1, OLQ, and RMD also regulate spontaneous foraging movements. Laser operated animals lacking IL1 and OLQ forage abnormally slowly and make exaggerated dorsal and ventral nose turns (Hart et al., 1995; Kaplan and Driscoll, 1997; Goodman, 2006).
+166	OLQVL	Neurons of outer labial lateral sensilla, ciliated	When worms are touched on either the dorsal or ventral sides of their nose with an eyelash, they interrupt the normal pattern of foraging and undergo an aversive head-withdrawal reflex. This simple reflex is mediated by two classes of mechanosensory neurons (OLQ and IL1) and their synaptic targets, the RMD motor neurons. Killing any of these cells, alone or in combination, diminishes the head withdrawal reflex. IL1, OLQ, and RMD also regulate spontaneous foraging movements. Laser operated animals lacking IL1 and OLQ forage abnormally slowly and make exaggerated dorsal and ventral nose turns (Hart et al., 1995; Kaplan and Driscoll, 1997; Goodman, 2006).
+167	OLQVR	Neurons of outer labial lateral sensilla, ciliated	When worms are touched on either the dorsal or ventral sides of their nose with an eyelash, they interrupt the normal pattern of foraging and undergo an aversive head-withdrawal reflex. This simple reflex is mediated by two classes of mechanosensory neurons (OLQ and IL1) and their synaptic targets, the RMD motor neurons. Killing any of these cells, alone or in combination, diminishes the head withdrawal reflex. IL1, OLQ, and RMD also regulate spontaneous foraging movements. Laser operated animals lacking IL1 and OLQ forage abnormally slowly and make exaggerated dorsal and ventral nose turns (Hart et al., 1995; Kaplan and Driscoll, 1997; Goodman, 2006).
+168	PDA	During the second larval stage (L2), the rectal ep	Innervates posterior dorsal body wall muscles.
+169	PDB	Motor neuron. Born postembryonically. Sends proces	Innervates posterior dorsal body wall muscles.
+170	PDEL	Posterior deirids, postembryonically born. Sensory	When well-fed C. elegans hermaphrodites are washed clean of bacteria and then reintroduced to the bacterial lawn, they move more slowly than when transferred to an environment without bacteria. This behavior is described as "basal slowing response". The three classes of dopaminergic neurons (CEPs, ADEs, and PDEs) function redundantly to sense the mechanosensory stimulus from bacteria and mediate the motor circuit to control this behavioral change (Sawin et al., 2000).
+171	PDER	Posterior deirids, postembryonically born. Sensory	When well-fed C. elegans hermaphrodites are washed clean of bacteria and then reintroduced to the bacterial lawn, they move more slowly than when transferred to an environment without bacteria. This behavior is described as "basal slowing response". The three classes of dopaminergic neurons (CEPs, ADEs, and PDEs) function redundantly to sense the mechanosensory stimulus from bacteria and mediate the motor circuit to control this behavioral change (Sawin et al., 2000).
+172	PHAL	Phasmid neurons, chemosensory	Express neuropeptide-like proteins, NLP-7 and NLP-14 (Nathoo et al., 2001).
+173	PHAR	Phasmid neurons, chemosensory	Express neuropeptide-like proteins, NLP-7 and NLP-14 (Nathoo et al., 2001).
+174	PHBL	Phasmid neurons, chemosensory	Modulate chemorepulsion behavior in worms (Hilliard et al., 2002).
+175	PHBR	Phasmid neurons, chemosensory	Modulate chemorepulsion behavior in worms (Hilliard et al., 2002).
+176	PHCL	Neuron, striated rootlet in male, possibly sensory	Mechanosensory
+177	PHCR	Neuron, striated rootlet in male, possibly sensory	Mechanosensory
+178	PLML	Posterior lateral microtubule cells, touch recepto	Along with AVM and ALM, sense touch to the body and provide input to the command (inter)neurons (PVC, AVB, AVD, AVA) via both synaptic connections and gap junctions (Chalfie et al., 1985). The touch cells form gap junctions with agonist interneurons and chemical synapses with the antagonist interneurons. Hence, the anterior touch cells PLML/R form gap junctions with the forward movement interneuron PVC, but they provide synaptic input to the backward interneurons AVA and AVD (Kaplan and Driscoll, 1997; Goodman, 2006).
+179	PLMR	Posterior lateral microtubule cells, touch recepto	Along with AVM and ALM, sense touch to the body and provide input to the command (inter)neurons (PVC, AVB, AVD, AVA) via both synaptic connections and gap junctions (Chalfie et al., 1985). The touch cells form gap junctions with agonist interneurons and chemical synapses with the antagonist interneurons. Hence, the anterior touch cells PLML/R form gap junctions with the forward movement interneuron PVC, but they provide synaptic input to the backward interneurons AVA and AVD (Kaplan and Driscoll, 1997; Goodman, 2006).
+180	PLNL	The processes of PLN's run closely associated with	 
+181	PLNR	The processes of PLN's run closely associated with	 
+182	PQR	Single neuron with basal body. It is directly expo	Along with AQR, URX and AUA, PQR regulate social feeding (or aggregation on a bacterial lawn) and bordering (the accumulation of animals on the thickest part of a bacterial lawn) behavior since suppressing the activity of AQR, PQR, and URX neurons inhibits social feeding (Coates and de Bono , 2002). AQR, PQR and URX function as sensors of environmental oxygen which is a quantitative regulator of social feeding (Gray et al., 2004). Decreases in oxygen leads to a dose-dependent suppression of social feeding behavior and bordering. Oxygen acts in parallel to NPR-1 in regulating social feeding behavior.
+183	PVCL	Ventral cord interneuron, cell body in lumbar gang	 
+184	PVCR	Ventral cord interneuron, cell body in lumbar gang	 
+185	PVDL	Born postembryonically (see V lineage). PVDL/R hav	Putative stretch-sensing mechanosensor. PVD mediates a response to harsh mechanical stimuli (Way and Chalfie, 1989). Animals in which PVD neurons are laser-ablated fail to respond to harsh touch to the central region of the body but can can respond to harsh head and tail tap. PVD is possibly not involved in the circuit that mediates suppression of pumping in response to a touch stimulus in adults (Keane and Avery, 2003)
+186	PVDR	Born postembryonically (see V lineage). PVDL/R hav	Putative stretch-sensing mechanosensor. PVD mediates a response to harsh mechanical stimuli (Way and Chalfie, 1989). Animals in which PVD neurons are laser-ablated fail to respond to harsh touch to the central region of the body but can can respond to harsh head and tail tap. PVD is possibly not involved in the circuit that mediates suppression of pumping in response to a touch stimulus in adults (Keane and Avery, 2003)
+187	PVM	Posterior ventral microtubule cell, generated post	PVM is ultrastructurally very similar to the other touch cells, and its differentiation is controlled by the same genetic pathway that controls differentiation of the other five touch receptor neurons. However, PVM does not mediate a locomotory response to gentle touch (Chalfie and Sulston, 1981) and does not appear to have a critical role in touch sensitivity (for discussion see Kaplan and Driscoll, 1997; Goodman, 2006). It is postulated to be a stretch receptor.
+188	PVNL	Interneuron/motor neuron, post. vent. cord, few sy	 
+189	PVNR	Interneuron/motor neuron, post. vent. cord, few sy	 
+190	PVPL	Interneuron. Differences in connectivity observed	Along with PVQL, PVPR pioneers the left side ventral cord and this function appears to be a joint action of these two processes. When PVPR precursor is ablated in the embryo, PVQL and AVKR growth cones migrate towards the right side. (Durbin, 1987; Antebi et al., 1997).
+191	PVPR	Interneuron. Differences in connectivity observed	Along with PVQL, PVPR pioneers the left side ventral cord and this function appears to be a joint action of these two processes. When PVPR precursor is ablated in the embryo, PVQL and AVKR growth cones migrate towards the right side. (Durbin, 1987; Antebi et al., 1997).
+192	PVQL	Interneurons, project along ventral cord to ring	Along with PVPR, PVQL pioneers the left hand ventral cord. This function appears to be a joint action of these two processes (Durbin, 1987).
+193	PVQR	Interneuron, projects along ventral cord to ring	Along with PVPR, PVQL pioneers the left hand ventral cord. This function appears to be a joint action of these two processes (Durbin, 1987).
+194	PVR	Interneuron, projects along ventral cord to ring	 
+195	PVT	Interneuron, projects along ventral cord to ring.	Midline neuroblast, secretes UNC-6, serves as a guidepost neuron to guide growing axons from the lumbar ganglia in the posteriormost region of the ventral cord. When PVT is ablated embryonically, these axons follow multiple routes to enter the ventral cord instead of making tight bundles (Antebi et al., 1997; Ren et al., 1999). Postembryonically, PVT functions to keep the ventral cord fascicles intact. Early larval ablation of PVT induces axons of AVKL/R, PVQL/R, HSNL/R and RMEV to aberrantly cross the ventral midline (Aurelio et al., 2002).
+196	PVWL	Interneuron, posterior ventral cord, few synapses	 
+197	PVWR	Interneuron, posterior ventral cord, few synapses	 
+198	RIAL	These neurons receive synaptic inputs from AIY and	- Functions in thermotaxis: A mutation that impairs the function RIA neurons or laser ablation of RIA cause athermotactic or cryophilic behavior. However, killing RIA neurons has no effect on chemotaxis (Iino and Yoshida, 2009; Tanizawa et al., 2006; Mori and Ohshima 1995). In the original two-drive (thermophilic vs cryophilic) model of thermotaxis, RIA is suggested to integrate signals processed in the thermotaxis neural circuit and emit outputs to downstream neurons (Mori and Ohshima, 1995; Tanizawa et al, 2006). Multiple transmissions including EAT-4-dependent glutamate from RIA are involved in communicating processed information to downstream neurons, thereby generating ultimate thermotactic outputs (Ohnishi et al, 2011). Although it is not clear as to which neurons downstream of RIA are main component neurons in the circuit, RIA is heavily connected presynaptically to SMD or RMD head motor neurons that regulate turning behavior, suggesting SMD and RMD control turn frequency and run duration depending on the thermal information transmitted by RIA (Ohnishi et al, 2011; Zariwala et al, 2003; White et al, 1986; Gray et al, 2005).
+199	RIAR	These neurons receive synaptic inputs from AIY and	- Functions in thermotaxis: A mutation that impairs the function RIA neurons or laser ablation of RIA cause athermotactic or cryophilic behavior. However, killing RIA neurons has no effect on chemotaxis (Iino and Yoshida, 2009; Tanizawa et al., 2006; Mori and Ohshima 1995). In the original two-drive (thermophilic vs cryophilic) model of thermotaxis, RIA is suggested to integrate signals processed in the thermotaxis neural circuit and emit outputs to downstream neurons (Mori and Ohshima, 1995; Tanizawa et al, 2006). Multiple transmissions including EAT-4-dependent glutamate from RIA are involved in communicating processed information to downstream neurons, thereby generating ultimate thermotactic outputs (Ohnishi et al, 2011). Although it is not clear as to which neurons downstream of RIA are main component neurons in the circuit, RIA is heavily connected presynaptically to SMD or RMD head motor neurons that regulate turning behavior, suggesting SMD and RMD control turn frequency and run duration depending on the thermal information transmitted by RIA (Ohnishi et al, 2011; Zariwala et al, 2003; White et al, 1986; Gray et al, 2005).
+200	RIBL	Ring interneuron	 
+201	RIBR	Ring interneuron	 
+202	RICL	Ring interneuron	 
+203	RICR	Ring interneuron	 
+204	RID	Ring interneuron, projects along dorsal cord	 
+205	RIFL	Ring interneuron	 
+206	RIFR	Ring interneuron	 
+207	RIGL	Ring interneuron	 
+208	RIGR	Ring interneuron	 
+209	RIH	Ring interneuron	 
+210	RIML	Ring motor neuron	 
+211	RIMR	Ring motor neuron	 
+212	RIPL	Ring/pharynx interneuron, only direct connection b	 
+213	RIPR	Ring/pharynx interneuron, only direct connection b	 
+214	RIR	Ring interneuron	 
+215	RIS	Ring interneuron	 
+216	RIVL	Ring interneuron	Functions in locomotion: After animals are removed from bacterial food, they initiate a local search behavior consisting of reversals and deep omega-shaped turns. This is followed by dispersal ~30 min later as reversal and turns are suppressed. Local search behavior is triggered by AWC olfactory neurons, ASK gustatory neurons, and AIB interneurons while dispersal is promoted by ASI gustatory neurons and AIY interneurons (Gray et al., 2005). Downstream of AIB and AIY, motor neuron sdefine specific aspects of reversal and turn frequency, amplitude, and directionality. SMD motor neurons define the steep amplitude of omega turns, RIV motor neurons specify the ventral bias of turns that follow a reversal, and SMB motor neurons set the amplitude of sinusoidal movement.
+217	RIVR	Ring interneuron	Functions in locomotion: After animals are removed from bacterial food, they initiate a local search behavior consisting of reversals and deep omega-shaped turns. This is followed by dispersal ~30 min later as reversal and turns are suppressed. Local search behavior is triggered by AWC olfactory neurons, ASK gustatory neurons, and AIB interneurons while dispersal is promoted by ASI gustatory neurons and AIY interneurons (Gray et al., 2005). Downstream of AIB and AIY, motor neuron sdefine specific aspects of reversal and turn frequency, amplitude, and directionality. SMD motor neurons define the steep amplitude of omega turns, RIV motor neurons specify the ventral bias of turns that follow a reversal, and SMB motor neurons set the amplitude of sinusoidal movement.
+218	RMDDL	Ring motor neuron/interneuron, many synapses	 
+219	RMDDR	Ring motor neuron/interneuron, many synapses	 
+220	RMDL	Ring motor neuron/interneuron, many synapses	 
+221	RMDR	Ring motor neuron/interneuron, many synapses	 
+222	RMDVL	Ring motor neuron/interneuron, many synapses	 
+223	RMDVR	Ring motor neuron/interneuron, many synapses	 
+224	RMED	Ring motor neuron	Suggested to be the pioneers of the nerve ring (Antebi et al., 1997).
+225	RMEL	Ring motor neuron	Suggested to be the pioneers of the nerve ring (Antebi et al., 1997).
+226	RMER	Ring motor neuron	Suggested to be the pioneers of the nerve ring (Antebi et al., 1997).
+227	RMEV	Ring motor neuron	Suggested to be the pioneers of the nerve ring (Antebi et al., 1997).
+228	RMFL	Ring motor neuron/interneuron	 
+229	RMFR	Ring motor neuron/interneuron	 
+230	RMGL	Ring interneuron	 
+231	RMGR	Ring interneuron	 
+232	RMHL	Ring motor neuron/interneuron	 
+233	RMHR	Ring motor neuron/interneuron	 
+234	SAADL	Ring interneuron, anteriorly projecting process th	 
+235	SAADR	Ring interneuron, anteriorly projecting process th	 
+236	SAAVL	Ring interneuron, anteriorly projecting process th	 
+237	SAAVR	Ring interneuron, anteriorly projecting process th	 
+238	SABD	Ring interneuron, anteriorly projecting process th	 
+239	SABVL	Ring interneuron, anteriorly projecting process th	 
+240	SABVR	Ring interneuron, anteriorly projecting process th	 
+241	SDQL	Post. lateral interneuron, process projects into r	 
+242	SDQR	Ant. lateral interneuron, process projects into ri	 
+243	SIADL	Receive a few synapses in the ring, have posterior	 
+244	SIADR	Receive a few synapses in the ring, have posterior	 
+245	SIAVL	Receive a few synapses in the ring, have posterior	 
+246	SIAVR	Receive a few synapses in the ring, have posterior	 
+247	SIBDL	Similar to SIA	 
+248	SIBDR	Similar to SIA	 
+249	SIBVL	Similar to SIA	 
+250	SIBVR	Similar to SIA	 
+251	SMBDL	Ring motor neuron/interneuron, has a posteriorly d	Functions in locomotion: After animals are removed from bacterial food, they initiate a local search behavior consisting of reversals and deep omega-shaped turns. This is followed by dispersal ~30 min later as reversal and turns are suppressed. Local search behavior is triggered by AWC olfactory neurons, ASK gustatory neurons, and AIB interneurons while dispersal is promoted by ASI gustatory neurons and AIY interneurons (Gray et al., 2005). Downstream of AIB and AIY, motor neurons define specific aspects of reversal and turn frequency, amplitude, and directionality. SMD motor neurons define the steep amplitude of omega turns, RIV motor neurons specify the ventral bias of turns that follow a reversal, and SMB motor neurons set the amplitude of sinusoidal movement.
+252	SMBDR	Ring motor neuron/interneuron, has a posteriorly d	Functions in locomotion: After animals are removed from bacterial food, they initiate a local search behavior consisting of reversals and deep omega-shaped turns. This is followed by dispersal ~30 min later as reversal and turns are suppressed. Local search behavior is triggered by AWC olfactory neurons, ASK gustatory neurons, and AIB interneurons while dispersal is promoted by ASI gustatory neurons and AIY interneurons (Gray et al., 2005). Downstream of AIB and AIY, motor neurons define specific aspects of reversal and turn frequency, amplitude, and directionality. SMD motor neurons define the steep amplitude of omega turns, RIV motor neurons specify the ventral bias of turns that follow a reversal, and SMB motor neurons set the amplitude of sinusoidal movement.
+253	SMBVL	Ring motor neuron/interneuron, has a posteriorly d	Functions in locomotion: After animals are removed from bacterial food, they initiate a local search behavior consisting of reversals and deep omega-shaped turns. This is followed by dispersal ~30 min later as reversal and turns are suppressed. Local search behavior is triggered by AWC olfactory neurons, ASK gustatory neurons, and AIB interneurons while dispersal is promoted by ASI gustatory neurons and AIY interneurons (Gray et al., 2005). Downstream of AIB and AIY, motor neurons define specific aspects of reversal and turn frequency, amplitude, and directionality. SMD motor neurons define the steep amplitude of omega turns, RIV motor neurons specify the ventral bias of turns that follow a reversal, and SMB motor neurons set the amplitude of sinusoidal movement.
+254	SMBVR	Ring motor neuron/interneuron, has a posteriorly d	Functions in locomotion: After animals are removed from bacterial food, they initiate a local search behavior consisting of reversals and deep omega-shaped turns. This is followed by dispersal ~30 min later as reversal and turns are suppressed. Local search behavior is triggered by AWC olfactory neurons, ASK gustatory neurons, and AIB interneurons while dispersal is promoted by ASI gustatory neurons and AIY interneurons (Gray et al., 2005). Downstream of AIB and AIY, motor neurons define specific aspects of reversal and turn frequency, amplitude, and directionality. SMD motor neurons define the steep amplitude of omega turns, RIV motor neurons specify the ventral bias of turns that follow a reversal, and SMB motor neurons set the amplitude of sinusoidal movement.
+255	SMDDL	Ring motor neuron/interneuron, has a posteriorly d	 
+256	SMDDR	Ring motor neuron/interneuron, has a posteriorly d	 
+257	SMDVL	Ring motor neuron/interneuron, has a posteriorly d	 
+258	SMDVR	Ring motor neuron/interneuron, has a posteriorly d	 
+259	URADL	Ring motor neuron	 
+260	URADR	Ring motor neuron	 
+261	URAVL	Ring motor neuron	 
+262	URAVR	Ring motor neuron	 
+263	URBL	Neuron, presynaptic in ring, ending in head	 
+264	URBR	Neuron, presynaptic in ring, ending in head	 
+265	URXL	Nonciliated endings in head, associated with CEPD	Function in aerotaxis: When placed in an O2 gradient, C. elegans shows a strong behavioral preference for ~5–10% (intermediate) O2 levels and avoids both hypoxia (<7%) and hyperoxia (21%). Animals navigate the O2 gradients by O2-induced changes in locomotion speed, reversal and turning behavior (Cheung et al., 2005; Gray et al., 2004). This preference for intermediate O2 levels (Gray et al., 2004), may work to allow oxidative metabolism but avoid oxidative stress (Lee and Atkinson, 1977). The intermediate O2 preference also promotes aggregation behavior, possibly since aggregating C. elegans locally deplete O2 to preferred levels (Gray et al., 2004; Rogers et al., 2006). The rise in O2 levels detected by animals leaving a group induces reversal (backing) and turning. Conversely, the fall in O2 encountered when entering a group suppresses reversal, turning, and rapid locomotion, allowing the animal to stay with the group. Soluble guanylate cyclase (sGC, e.g. GCY-35 and GCY-36)-expressing oxygen-sensing neurons (URX, AQR, PQR, SDQ, BDU, ALN, and PLN) mediate the avoidance of high O2 levels (Zimmer et al, 2009). URX appears to be the most important member of this group, since its activity is uniquely important for aggregation (Coates and de Bono, 2002), while for aerotactic behavior in an O2 gradient, URX is redundant with other sGC-expressing neurons (Chang et al., 2006). The locations of URX in the head and PQR in the tail facilitate high O2 avoidance by the animal accelerating forward without changing direction of movement when its tail/PQR encounters high O2 and by reversal and turning when its head/URX encounters high O2 (Busch et al., 2012). Two post-synaptic targets of URX, AUA and RMG, seem to be involved in this O2-induced behavioral response.
+266	URXR	Nonciliated endings in head, associated with CEPD	Function in aerotaxis: When placed in an O2 gradient, C. elegans shows a strong behavioral preference for ~5–10% (intermediate) O2 levels and avoids both hypoxia (<7%) and hyperoxia (21%). Animals navigate the O2 gradients by O2-induced changes in locomotion speed, reversal and turning behavior (Cheung et al., 2005; Gray et al., 2004). This preference for intermediate O2 levels (Gray et al., 2004), may work to allow oxidative metabolism but avoid oxidative stress (Lee and Atkinson, 1977). The intermediate O2 preference also promotes aggregation behavior, possibly since aggregating C. elegans locally deplete O2 to preferred levels (Gray et al., 2004; Rogers et al., 2006). The rise in O2 levels detected by animals leaving a group induces reversal (backing) and turning. Conversely, the fall in O2 encountered when entering a group suppresses reversal, turning, and rapid locomotion, allowing the animal to stay with the group. Soluble guanylate cyclase (sGC, e.g. GCY-35 and GCY-36)-expressing oxygen-sensing neurons (URX, AQR, PQR, SDQ, BDU, ALN, and PLN) mediate the avoidance of high O2 levels (Zimmer et al, 2009). URX appears to be the most important member of this group, since its activity is uniquely important for aggregation (Coates and de Bono, 2002), while for aerotactic behavior in an O2 gradient, URX is redundant with other sGC-expressing neurons (Chang et al., 2006). The locations of URX in the head and PQR in the tail facilitate high O2 avoidance by the animal accelerating forward without changing direction of movement when its tail/PQR encounters high O2 and by reversal and turning when its head/URX encounters high O2 (Busch et al., 2012). Two post-synaptic targets of URX, AUA and RMG, seem to be involved in this O2-induced behavioral response.
+267	URYDL	Neuron, presynaptic in ring, ending in head	Expresses (inconsistently) the serotonin receptor, SER-1 (Dernovici et al, 2007; Carnell et al, 2005.)
+268	URYDR	Neuron, presynaptic in ring, ending in head	Expresses (inconsistently) the serotonin receptor, SER-1 (Dernovici et al, 2007; Carnell et al, 2005.)
+269	URYVL	Neuron, presynaptic in ring, ending in head	Expresses (inconsistently) the serotonin receptor, SER-1 (Dernovici et al, 2007; Carnell et al, 2005.)
+270	URYVR	Neuron, presynaptic in ring, ending in head	Expresses (inconsistently) the serotonin receptor, SER-1 (Dernovici et al, 2007; Carnell et al, 2005.)
+271	VA1	Ventral cord motor neuron, innervates vent. body m	 
+272	VA2	Ventral cord motor neuron, innervates vent. body m	 
+273	VA3	Ventral cord motor neuron, innervates vent. body m	 
+274	VA4	Ventral cord motor neuron, innervates vent. body m	 
+275	VA5	Ventral cord motor neuron, innervates vent. body m	 
+276	VA6	Ventral cord motor neuron, innervates vent. body m	 
+277	VA7	Ventral cord motor neuron, innervates vent. body m	 
+278	VA8	Ventral cord motor neuron, innervates vent. body m	 
+279	VA9	Ventral cord motor neuron, innervates vent. body m	 
+280	VA10	Ventral cord motor neuron, innervates vent. body m	 
+281	VA11	Ventral cord motor neuron, innervates vent. body m	 
+282	VA12	Ventral cord motor neuron, innervates vent. body m	 
+283	VB1	Ventral cord motor neuron, innervates vent. body m	 
+284	VB2	Ventral cord motor neuron, innervates vent. body m	 
+285	VB3	Ventral cord motor neuron, innervates vent. body m	 
+286	VB4	Ventral cord motor neuron, innervates vent. body m	 
+287	VB5	Ventral cord motor neuron, innervates vent. body m	 
+288	VB6	Ventral cord motor neuron, innervates vent. body m	 
+289	VB7	Ventral cord motor neuron, innervates vent. body m	 
+290	VB8	Ventral cord motor neuron, innervates vent. body m	 
+291	VB9	Ventral cord motor neuron, innervates vent. body m	 
+292	VB10	Ventral cord motor neuron, innervates vent. body m	 
+293	VB11	Ventral cord motor neuron, innervates vent. body m	 
+294	VC1	Hermaphrodite specific ventral cord motor neurons.	Acetylcholine released from the VC neurons inhibits egg-laying behavior. This may be caused by inhibition of presynaptic neurotransmitter release by HSN neurons following the activation of the G-protein- coupled acetylcholine receptor 2 (GAR-2) signaling (Bany et al., 2003). VC4 and VC5 can also induce the active phase of egg-laying by releasing serotonin (Waggoner et al., 1998).
+295	VC2	Hermaphrodite specific ventral cord motor neurons.	Acetylcholine released from the VC neurons inhibits egg-laying behavior. This may be caused by inhibition of presynaptic neurotransmitter release by HSN neurons following the activation of the G-protein- coupled acetylcholine receptor 2 (GAR-2) signaling (Bany et al., 2003). VC4 and VC5 can also induce the active phase of egg-laying by releasing serotonin (Waggoner et al., 1998).
+296	VC3	Hermaphrodite specific ventral cord motor neurons.	Acetylcholine released from the VC neurons inhibits egg-laying behavior. This may be caused by inhibition of presynaptic neurotransmitter release by HSN neurons following the activation of the G-protein- coupled acetylcholine receptor 2 (GAR-2) signaling (Bany et al., 2003). VC4 and VC5 can also induce the active phase of egg-laying by releasing serotonin (Waggoner et al., 1998).
+297	VC4	Hermaphrodite specific ventral cord motor neurons.	Acetylcholine released from the VC neurons inhibits egg-laying behavior. This may be caused by inhibition of presynaptic neurotransmitter release by HSN neurons following the activation of the G-protein- coupled acetylcholine receptor 2 (GAR-2) signaling (Bany et al., 2003). VC4 and VC5 can also induce the active phase of egg-laying by releasing serotonin (Waggoner et al., 1998).
+298	VC5	Hermaphrodite specific ventral cord motor neurons.	Acetylcholine released from the VC neurons inhibits egg-laying behavior. This may be caused by inhibition of presynaptic neurotransmitter release by HSN neurons following the activation of the G-protein- coupled acetylcholine receptor 2 (GAR-2) signaling (Bany et al., 2003). VC4 and VC5 can also induce the active phase of egg-laying by releasing serotonin (Waggoner et al., 1998).
+299	VC6	Hermaphrodite specific ventral cord motor neurons.	Acetylcholine released from the VC neurons inhibits egg-laying behavior. This may be caused by inhibition of presynaptic neurotransmitter release by HSN neurons following the activation of the G-protein- coupled acetylcholine receptor 2 (GAR-2) signaling (Bany et al., 2003). VC4 and VC5 can also induce the active phase of egg-laying by releasing serotonin (Waggoner et al., 1998).
+300	VD1	Ventral cord motor neuron, innervates vent body mu	 
+301	VD2	Ventral cord motor neuron, innervates vent body mu	 
+302	VD3	Ventral cord motor neuron, innervates vent body mu	 
+303	VD4	Ventral cord motor neuron, innervates vent body mu	 
+304	VD5	Ventral cord motor neuron, innervates vent body mu	 
+305	VD6	Ventral cord motor neuron, innervates vent body mu	 
+306	VD7	Ventral cord motor neuron, innervates vent body mu	 
+307	VD8	Ventralcord motor neuron, innervates vent body mus	 
+308	VD9	Ventral cord motor neuron, innervates vent body mu	 
+309	VD10	Ventral cord motor neuron, innervates vent body mu	 
+310	VD11	Ventral cord motor neuron, innervates vent body mu	 
+311	VD12	Ventral cord motor neuron, innervates vent body mu	 
+312	VD13	Ventral cord motor neuron, innervates vent body mu	 
+313	Neurotransmitter	 	 
+314	Glutamate	 	 
+315	FLP-8	a FMRFamide-like peptide. Sequence: F31F6.4 Other name: CELE_F31F6.4 Type: protein coding Gene class: flp Clone: F31F6 Parent seq: F31F6 Named by: Chris Li WormBase ID: WBGene00001451	flp-8 encodes three copies of a FMRFamide-related short peptide neurotransmitter; although the FLP-8 peptide can increase pharyngeal action potential frequency, loss of FLP-8 function does not result in a mutant phenotype, suggesting that FLP-8 may function redundantly with other FMRFamide-like peptides in the nervous system; FLP-8 expression is detected in embryos and larval stages, but not in adults; FLP-8 is expressed in the sensory neurons ASEL/R, URXL/R, and PVM.
+316	Dopamine	 	 
+317	Serotonin	FMRFamide-like peptide	 
+318	INS-1	ins-1 encodes an insulin-like peptide orthologous to human insulin (INS; OMIM:176730, mutated in hyperproinsulinemia and diabetes mellitus type II); Sequence: F13B12.5 Other names: ILP1, aho-2, CELE_F13B12.5 Type: protein coding Gene class: ins Clone: F13B12 Parent seq: F13B12 Named by: Jenny Kopczynski WormBase ID: WBGene00002084	INS-1 is one of 38 insulin-like peptides in C. elegans and when overexpressed can antagonize insulin-like signaling mediated by DAF-2/IR leading to arrest at the dauer larval stage; loss of INS-1, however, does not result in a dauer phenotype suggesting that INS-1 functions redundantly with other insulin-like peptides to regulate reproductive growth and lifespan; a mutation in ins-1 does, however, show severe defects in salt chemotaxis learning; INS-1 is expressed in the amphid sensory neurons ASI and ASJ that regulate dauer arrest, the nerve ring, the intestine, vulval muscles, and other neurons.
+319	NLP-3	neuropeptide-like peptide. Sequence: F48C11.3 Other name: CELE_F48C11.3 Type: protein coding Gene class: nlp Clone: F48C11 Parent seq: F48C11 Named by: Anne Hart WormBase ID: WBGene00003741	nlp-3 encodes a neuropeptide-like protein of the GFxGF family with similarity to orcokinins, highly conserved peptides native to crustaceans that enhance hindgut contractions; NLP-3 is expressed in neurons in the head, pharynx, and vulva, and in the intestine; the precise role of NLP-3 in nervous system function and development is not yet clear.
+320	Acetylcholine	 	 
+321	FLP-1	FMRFamide-like peptide Sequence: F23B2.5 Other name: CELE_F23B2.5 Type: protein coding Gene class: flp Clone: F23B2 Parent seq: F23B2 Named by: Chris Li WormBase ID: WBGene00001444	flp-1 can encode up to seven distinct, yet highly similar, FMRFamide-related peptides (FaRPs), small neuromodulatory peptides that are characterized by a C-terminal Arg-Phe-amide motif; in C. elegans, FLP-1 peptides are required for regulation of several behaviors, including well-coordinated, sinusoidal movement and the transition between active and inactive states of egg-laying; receptors for the FLP-1 peptides have not yet been identified, but genetic studies indicate that FLP-1 peptides may act through G-protein coupled receptors; flp-1 mRNAs are detected at all developmental stages, and a FLP-1 translational reporter fusion detects expression in the anteriorly positioned neurons AVK, AVA, AVE, RIG, RMG, AIY, AIA, and M5.
+322	FLP-18	FMRFamide-like peptide. Sequence: Y48D7A.2 Other name: CELE_Y48D7A.2 Type: protein coding Gene class: flp Clone: Y48D7A Parent seq: SUPERLINK_RWXL Named by: Chris Li WormBase ID: WBGene00001461	flp-18 encodes the only FMRFamide-related neuropeptide (FaRP) encoded by the C. elegans genome, other than flp-21, that activates the solitary (215V) form of NPR-1 in Xenopus oocytes; in addition, FLP-18 can activated the social (215F) form of NPR-1 in pharyngeal assays; FLP-18 is expressed in the interneurons AVA, AIY and RIG, the motor neuron RIM and the pharyngeal neurons M2 and M3.
+323	FLP-7	FMRFamide-like peptide. Sequence: F49E10.3 Other name: CELE_F49E10.3 Type: protein coding Gene class: flp Clone: F49E10 Parent seq: F49E10 amed by: Chris Li WormBase ID: WBGene00001450	flp-7 encodes an MVRFamide-containing peptide that, upon injection into A. suum, produces paralysis and loss of locomotory waveforms, increased body length, and decreased cAMP production.
+324	VGluT	Vesicular glutamate transporter.	 
+325	FLP-4	FMRFamide-like neuropeptide. Sequence: C18D1.3 Other name: CELE_C18D1.3 Type: protein coding Gene class: flp Clone: C18D1 Parent seq: C18D1 Named by: Chris Li WormBase ID: WBGene00001447	 
+326	FLP-21	FMRFamide-like neuropeptide. Sequence: C26F1.10 Other name: CELE_C26F1.10 Type: protein coding Gene class: flp Clone: C26F1 Parent seq: C26F1 Named by: Chris Li WormBase ID: WBGene00001464	flp-21 encodes a single FMRFamide-related neuropeptide (FaRP) that serves as a ligand for NPR-1, a G protein-coupled receptor that regulates social versus solitary feeding behavior in several Caenorhabditis species; genetic analysis suggests that FLP-21 acts through NPR-1 to inhibit social feeding behavior; FLP-21 is expressed in the ADL, ASE and ASH sensory neurons, the URA motor neurons, the MC, M2 and M4 pharyngeal neurons, and the intestine; flp-21 encodes the only FMRFamide-related neuropeptide (FaRP) encoded by the C. elegans genome that activates both the social (215F) and the solitary (215V) forms of NPR-1 in both Xenopus oocytes and pharyngeal assays.
+327	NLP-7	neuropeptide-like peptide	 
+328	NLP-8	neuropeptide-like peptide	 
+329	NLP-10	neuropeptide-like peptide	 
+330	FLP-20	FMRFamide-like neuropeptide	 
+331	EAT-4	 	 
+332	NLP-14	neuropeptide-like peptide	 
+333	NLP-15	neuropeptide-like peptide	 
+334	NLP-1	neuropeptide-like peptide	 
+335	NLP-5	neuropeptide-like peptide	 
+336	NLP-6	neuropeptide-like peptide	 
+337	NLP-9	neuropeptide-like peptide	 
+338	NLP-18	neuropeptide-like peptide	 
+339	NLP-24	neuropeptide-like peptide	 
+340	NLP-27	neuropeptide-like peptide	 
+341	GABA	 	 
+342	Monoamine	 	 
+343	CAT-1	 	 
+344	TH	 	 
+345	CAT-2	 	 
+346	TPH-1	tryptophan hydroxylase	 
+347	FLP-5	FMRFamide-like neuropeptide	 
+348	NLP-13	neuropeptide-like peptide	 
+349	NLP-19	neuropeptide-like peptide	 
+350	NLP-11	neuropeptide-like peptide	 
+351	Octopamine	 	 
+352	ChAT	 	 
+353	VAChT	Vesicular acetylcholine transporter	 
+354	Neuropeptide	Neuropeptides are small protein-like molecules (peptides) used by neurons to communicate with each other.	 
+355	Innexin	An innexin is a member of a family of proteins that create gap junctions in invertebrates.	 
+356	send	A neuron connects to another neuron	 
+357	gap junction	A gap junction or nexus is a specialized intercellular connection between a multitude of animal cell-types.[1][2][3] It directly connects the cytoplasm of two cells, which allows various molecules and ions to pass freely between cells.[	 
+358	INX-4	Innexin	 
+359	INX-19	Innexin	 
+360	UNC-9	Innexin	 
+361	Receptor	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+362	ACR-14	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+363	ACR-16	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+364	AEX-2	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+365	AVR-14	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+366	AVR-15	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+367	C50F7.1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+368	CKR-2	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+369	DAF-11	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+370	DEG-3	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+371	DEL-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+372	DES-2	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+373	DOP-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+374	DOP-2	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+375	EXP-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+376	GAR-2	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+377	GCY-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+378	GCY-12	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+379	GCY-18	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+380	GCY-21	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+381	GCY-23	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+382	GCY-25	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+383	GCY-28	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+384	GCY-29	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+385	GCY-32	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+386	GCY-33	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+387	GCY-34	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+388	GCY-35	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+389	GCY-36	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+390	GCY-37	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+391	GCY-5	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+392	GCY-6	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+393	GCY-7	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+394	GCY-8	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+395	GGR-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+396	GGR-2	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+397	GGR-3	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+398	GLC-3	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+399	GLR-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+400	GLR-2	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+401	GLR-4	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+402	GLR-5	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+403	GLR-7	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+404	GLR-8	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+405	LGC-38	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+406	MEC-10	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+407	MEC-2	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+408	MEC-4	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+409	MEC-6	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+410	MEC-9	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+411	MGL-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+412	MGL-3	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+413	MOD-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+414	NLP-11	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+415	NMR-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+416	NMR-2	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+417	NPR-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+418	NPR-11	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+419	NPR-14	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+420	NPR-5	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+421	OCR-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+422	OCR-2	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+423	ODR-10	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+424	OSM-9	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+425	SCD-2	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+426	SER-2	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+427	SER-4	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+428	SER7b	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+429	SRA-10	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+430	SRA-11	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+431	SRA-6	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+432	SRA-7	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+433	SRA-9	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+434	SRB-6	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+435	SRD-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+436	SRE-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+437	SRG-13	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+438	SRG-2	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+439	SRG-8	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+440	SRH-132	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+441	SRH-220	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+442	SRI-51	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+443	SRO-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+444	STR-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+445	STR-2	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+446	STR-3	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+447	TYRA-3	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+448	UNC-8	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+449	SER-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+450	MGL-2	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+451	ACR-13	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+452	OCR-4	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+453	GAR-1	A receptor is a molecule usually found on the surface of a cell, that receives chemical signals from outside the cell.	 
+1403	UNC-7	Innexin	 
+1404	INX-1	Innexin	 
+1405	INX-17	Innexin	 
+1406	INX-18	Innexin	 
+1407	INX-7	Innexin	 
+1408	INX-8	Innexin	 
+1409	MANAL	Muscle	 
+1410	MDL01	Muscle	 
+1411	MDL02	Muscle	 
+1412	MDL03	Muscle	 
+1413	MDL04	Muscle	 
+1414	MDL05	Muscle	 
+1415	MDL06	Muscle	 
+1416	MDL07	Muscle	 
+1417	MDL08	Muscle	 
+1418	MDL09	Muscle	 
+1419	MDL10	Muscle	 
+1420	MDL11	Muscle	 
+1421	MDL12	Muscle	 
+1422	MDL13	Muscle	 
+1423	MDL14	Muscle	 
+1424	MDL15	Muscle	 
+1425	MDL16	Muscle	 
+1426	MDL17	Muscle	 
+1427	MDL18	Muscle	 
+1428	MDL19	Muscle	 
+1429	MDL20	Muscle	 
+1430	MDL21	Muscle	 
+1431	MDL22	Muscle	 
+1432	MDL23	Muscle	 
+1433	MDL24	Muscle	 
+1434	MDR01	Muscle	 
+1435	MDR02	Muscle	 
+1436	MDR03	Muscle	 
+1437	MDR04	Muscle	 
+1438	MDR05	Muscle	 
+1439	MDR06	Muscle	 
+1440	MDR07	Muscle	 
+1441	MDR08	Muscle	 
+1442	MDR09	Muscle	 
+1443	MDR10	Muscle	 
+1444	MDR11	Muscle	 
+1445	MDR12	Muscle	 
+1446	MDR13	Muscle	 
+1447	MDR14	Muscle	 
+1448	MDR15	Muscle	 
+1449	MDR16	Muscle	 
+1450	MDR17	Muscle	 
+1451	MDR18	Muscle	 
+1452	MDR19	Muscle	 
+1453	MDR20	Muscle	 
+1454	MDR21	Muscle	 
+1455	MDR22	Muscle	 
+1456	MDR23	Muscle	 
+1457	MDR24	Muscle	 
+1458	MVL01	Muscle	 
+1459	MVL02	Muscle	 
+1460	MVL03	Muscle	 
+1461	MVL04	Muscle	 
+1462	MVL05	Muscle	 
+1463	MVL06	Muscle	 
+1464	MVL07	Muscle	 
+1465	MVL08	Muscle	 
+1466	MVL09	Muscle	 
+1467	MVL10	Muscle	 
+1468	MVL11	Muscle	 
+1469	MVL12	Muscle	 
+1470	MVL13	Muscle	 
+1471	MVL14	Muscle	 
+1472	MVL15	Muscle	 
+1473	MVL16	Muscle	 
+1474	MVL17	Muscle	 
+1475	MVL18	Muscle	 
+1476	MVL19	Muscle	 
+1477	MVL20	Muscle	 
+1478	MVL21	Muscle	 
+1479	MVL22	Muscle	 
+1480	MVL23	Muscle	 
+1481	MVR01	Muscle	 
+1482	MVR02	Muscle	 
+1483	MVR03	Muscle	 
+1484	MVR04	Muscle	 
+1485	MVR05	Muscle	 
+1486	MVR06	Muscle	 
+1487	MVR07	Muscle	 
+1488	MVR08	Muscle	 
+1489	MVR09	Muscle	 
+1490	MVR10	Muscle	 
+1491	MVR11	Muscle	 
+1492	MVR12	Muscle	 
+1493	MVR13	Muscle	 
+1494	MVR14	Muscle	 
+1495	MVR15	Muscle	 
+1496	MVR16	Muscle	 
+1497	MVR17	Muscle	 
+1498	MVR18	Muscle	 
+1499	MVR19	Muscle	 
+1500	MVR20	Muscle	 
+1501	MVR21	Muscle	 
+1502	MVR22	Muscle	 
+1503	MVR23	Muscle	 
+1504	MVR24	Muscle	 
+1505	MVULVA	Muscle	 
+1506	FLP-10	neuropeptide-like peptide	 
+1507	FLP-11	neuropeptide-like peptide	 
+1508	FLP-19	neuropeptide-like peptide	 
+1509	FLP-2	neuropeptide-like peptide	 
+1510	FLP-22	neuropeptide-like peptide	 
+1511	FLP-6	neuropeptide-like peptide	 
+1512	GLT-1	neuropeptide-like peptide	 
+1513	NLP-21	neuropeptide-like peptide	 
+1514	VMaT	neuropeptide-like peptide	 
+1515	is a	 	 
+1517	Test	Test	 
+1518	Protein	Proteins are large biological molecules consisting of one or more chains of amino acids.	Proteins perform a vast array of functions within living organisms, including catalyzing metabolic reactions, replicating DNA, responding to stimuli, and transporting molecules from one location to another.
+1519	Muscle	a muscle	n/a
+i
